@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <title>伺服器停機公告 - 榛果繽紛樂</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #fff8e1;
+            color: #333333;
+            position: relative;
+            overflow-x: hidden;
+        }
+        .logo {
+            position: absolute;
+            top: 0px;
+            left: calc(50% - 100vh / 2); /* 水平置中 */
+            width: auto; /* 調整 logo 大小 */
+            height: 100vh;
+        }
+        .container {
+            text-align: center;
+            padding: 20px;
+            width: 90%;
+            max-width: 600px;
+            background: rgba(255, 255, 255, 0.95);
+            border-top: 5px solid #0073aa; /* 上邊線 */
+            border-bottom: 5px solid #0073aa; /* 下邊線 */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            position: relative; /* 確保容器在頂層 */
+            z-index: 1;
+        }
+        h1 {
+            font-size: 2.5em;
+            margin-bottom: 20px;
+            margin-top: 0;
+            color: #d9534f; /* 顯眼的紅色 */
+        }
+        h2 {
+            font-size: 1.5em;
+            margin-bottom: 0px;
+            margin-top: 10px;
+        }
+        p {
+            font-size: 1.2em;
+            margin-bottom: 20px;
+        }
+        b {
+            font-size: 1.2em;
+            display: block;
+            margin-bottom: 20px;
+        }
+
+        strong {
+            font-size: 1.2em;
+            color: #0073aa; /* WordPress 主題顏色 */
+        }
+        .button {
+            display: inline-block;
+            padding: 12px 24px;
+            font-size: 1.2em;
+            color: #fff;
+            background-color: #0073aa; /* WordPress 主題顏色 */
+            border: none;
+            text-decoration: none;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        .button:hover {
+            background-color: #005177;
+        }
+    </style>
+</head>
+<body>
+    <img src="logo.png" class="logo" alt="Logo">
+    <div class="container">
+        <h2>榛果繽紛樂</h2>
+        <h1>伺服器暫時停機公告</h1>
+        <b>我們的伺服器目前停機中，預計將於<br>
+            <strong>台北時間（UTC+8）2024年7月15日18:00前</strong><br>
+            恢復所有服務。</b>
+        <p>本站部分頁面不受停機影響，您仍可瀏覽部分內容。<br>
+            感謝您的支持與耐心等待，給您帶來的不便我們深感抱歉！</p>
+        <a href="https://home.hazelnut-paradise.com" class="button">前往未停機的首頁</a>
+    </div>
+</body>
+</html>
